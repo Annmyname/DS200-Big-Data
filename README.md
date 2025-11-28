@@ -10,8 +10,6 @@ Dự án này giải quyết vấn đề **đánh giá lừa đảo (fraudulent 
 
 Chúng tôi đã triển khai và so sánh hiệu suất của hai mô hình GNN tiên tiến là **GraphSAGE** và **CARE-GNN** trên bộ dữ liệu đánh giá **YelpChi dataset**.
 
-Sử dụng cú pháp HTML để căn giữa bảng:
-
 ```html
 <div align="center">
   <p>Kết quả thí nghiệm chi tiết cho thấy khả năng của các mô hình GNN trong việc phân loại gian lận:</p>
@@ -37,8 +35,6 @@ This project tackles the critical issue of **fraudulent reviews** on online plat
 ### 🔬 Methodology and Experimental Results
 
 We implemented and compared the performance of two advanced GNN models: **GraphSAGE** and **CARE-GNN**, using the **YelpChi dataset** for fraud detection.
-
-Using HTML syntax to center the table:
 
 ```html
 <div align="center">
