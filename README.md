@@ -34,15 +34,14 @@ This project tackles the critical issue of **fraudulent reviews** on online plat
 
 We implemented and compared the performance of two advanced GNN models: **GraphSAGE** and **CARE-GNN**, using the **YelpChi dataset** for fraud detection.
 
-```html
-<div align="center">
+<center>
   <p>The detailed experimental results highlight the capabilities of the GNN models in fraud classification:</p>
 
   | Model | Accuracy | ROC-AUC | Recall Score | F1 Score |
   | :--- | :--- | :--- | :--- | :--- |
   | **GraphSAGE** | **0.85** | 0.76 | 0.70 | 0.69 |
   | **CARE-GNN** | 0.50 | 0.59 | 0.50 | 0.46 |
-</div>
+</center>
 ```
 
 The **GraphSAGE** model achieved the highest overall accuracy of **0.85** and demonstrated superior general performance in identifying fraudulent reviews, with better **Recall** and **F1-Scores**.
