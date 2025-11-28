@@ -10,16 +10,14 @@ Dự án này giải quyết vấn đề **đánh giá lừa đảo (fraudulent 
 
 Chúng tôi đã triển khai và so sánh hiệu suất của hai mô hình GNN tiên tiến là **GraphSAGE** và **CARE-GNN** trên bộ dữ liệu đánh giá **YelpChi dataset**.
 
-```html
-<div align="center">
+<center>
   <p>Kết quả thí nghiệm chi tiết cho thấy khả năng của các mô hình GNN trong việc phân loại gian lận:</p>
 
   | Mô hình | Accuracy | ROC-AUC | Recall Score | F1 Score |
   | :--- | :--- | :--- | :--- | :--- |
   | **GraphSAGE** | **0.85** | 0.76 | 0.70 | 0.69 |
   | **CARE-GNN** | 0.50 | 0.59 | 0.50 | 0.46 |
-</div>
-```
+</center>
 
 Mô hình **GraphSAGE** đã đạt được độ chính xác (Accuracy) cao nhất là **0.85** và cho thấy hiệu suất tổng thể tốt hơn trong việc xác định các đánh giá lừa đảo, với các chỉ số **Recall** và **F1-Score** đều vượt trội.
 
